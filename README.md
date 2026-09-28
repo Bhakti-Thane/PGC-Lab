@@ -2,20 +2,33 @@
 
 ## Overview
 
-This project implements and compares matrix multiplication using four different approaches:
+This project focuses on the implementation and performance analysis of matrix multiplication using different computing approaches:
 
 - Sequential
 - OpenMP
 - MPI
 - CUDA
 
-The matrix size used for the experiment is **4000 × 4000**.
+The matrix size used for the experiments is **4000 × 4000**.
 
 ---
 
-## 1. Sequential Execution
+## Objective
 
-The sequential implementation performs matrix multiplication without parallel processing.
+The objective is to implement matrix multiplication using different approaches and compare their execution performance.
+
+The implementations are compared based on:
+
+- Execution Time
+- Speedup
+- Verification of Results
+- Resource Utilization
+
+---
+
+## 1. Sequential Implementation
+
+The sequential implementation performs matrix multiplication using the traditional CPU-based approach.
 
 ### Compilation
 
